@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7800030E1C84A94100B9D265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800030D1C84A94100B9D265 /* main.m */; };
+		780003111C84A94100B9D265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780003101C84A94100B9D265 /* AppDelegate.m */; };
+		780003171C84A94100B9D265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780003151C84A94100B9D265 /* Main.storyboard */; };
+		780003191C84A94100B9D265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780003181C84A94100B9D265 /* Images.xcassets */; };
+		7800031C1C84A94100B9D265 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7800031A1C84A94100B9D265 /* LaunchScreen.xib */; };
+		7800036B1C84AA0800B9D265 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800036A1C84AA0800B9D265 /* ServerManager.m */; };
+		7800036E1C84ABCD00B9D265 /* StartBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800036D1C84ABCD00B9D265 /* StartBannerViewController.m */; };
+		780003721C84B82300B9D265 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = 780003711C84B82300B9D265 /* Banner.m */; };
+		780003751C84C03800B9D265 /* TGBBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 780003741C84C03800B9D265 /* TGBBanner.m */; };
+		780003781C84C28C00B9D265 /* OdnoklassnikiBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 780003771C84C28C00B9D265 /* OdnoklassnikiBanner.m */; };
+		7800037B1C84C39800B9D265 /* HtmlImageFlashBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800037A1C84C39800B9D265 /* HtmlImageFlashBanner.m */; };
+		7800037E1C84CB9100B9D265 /* BannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800037D1C84CB9100B9D265 /* BannerCell.m */; };
+		780003831C84E4D600B9D265 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 780003821C84E4D600B9D265 /* File.m */; };
+		78C6419D1C878BDE009E030A /* SaveLoadSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6419C1C878BDE009E030A /* SaveLoadSettings.m */; };
+		78C650281C860D530052C188 /* TGBBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C650271C860D530052C188 /* TGBBannerViewController.m */; };
+		78C6502B1C8620B00052C188 /* HtmlImageFlashBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6502A1C8620B00052C188 /* HtmlImageFlashBannerViewController.m */; };
+		78C6502E1C8621950052C188 /* OdnoklassnikiBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6502D1C8621950052C188 /* OdnoklassnikiBannerViewController.m */; };
+		835B9168F7F6FAF4151BD9B3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8273851AB74388F0414B29F1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48FC4B71859127A0B01A1659 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		780003081C84A94100B9D265 /* BannerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800030C1C84A94100B9D265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7800030D1C84A94100B9D265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7800030F1C84A94100B9D265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		780003101C84A94100B9D265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		780003161C84A94100B9D265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		780003181C84A94100B9D265 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7800031B1C84A94100B9D265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		780003691C84AA0800B9D265 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		7800036A1C84AA0800B9D265 /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		7800036C1C84ABCD00B9D265 /* StartBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartBannerViewController.h; sourceTree = "<group>"; };
+		7800036D1C84ABCD00B9D265 /* StartBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartBannerViewController.m; sourceTree = "<group>"; };
+		780003701C84B82300B9D265 /* Banner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banner.h; sourceTree = "<group>"; };
+		780003711C84B82300B9D265 /* Banner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banner.m; sourceTree = "<group>"; };
+		780003731C84C03800B9D265 /* TGBBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBBanner.h; sourceTree = "<group>"; };
+		780003741C84C03800B9D265 /* TGBBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBBanner.m; sourceTree = "<group>"; };
+		780003761C84C28C00B9D265 /* OdnoklassnikiBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdnoklassnikiBanner.h; sourceTree = "<group>"; };
+		780003771C84C28C00B9D265 /* OdnoklassnikiBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OdnoklassnikiBanner.m; sourceTree = "<group>"; };
+		780003791C84C39800B9D265 /* HtmlImageFlashBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlImageFlashBanner.h; sourceTree = "<group>"; };
+		7800037A1C84C39800B9D265 /* HtmlImageFlashBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlImageFlashBanner.m; sourceTree = "<group>"; };
+		7800037C1C84CB9100B9D265 /* BannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerCell.h; sourceTree = "<group>"; };
+		7800037D1C84CB9100B9D265 /* BannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerCell.m; sourceTree = "<group>"; };
+		780003811C84E4D600B9D265 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		780003821C84E4D600B9D265 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		78C6419B1C878BDE009E030A /* SaveLoadSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveLoadSettings.h; sourceTree = "<group>"; };
+		78C6419C1C878BDE009E030A /* SaveLoadSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveLoadSettings.m; sourceTree = "<group>"; };
+		78C650261C860D530052C188 /* TGBBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBBannerViewController.h; sourceTree = "<group>"; };
+		78C650271C860D530052C188 /* TGBBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBBannerViewController.m; sourceTree = "<group>"; };
+		78C650291C8620B00052C188 /* HtmlImageFlashBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlImageFlashBannerViewController.h; sourceTree = "<group>"; };
+		78C6502A1C8620B00052C188 /* HtmlImageFlashBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlImageFlashBannerViewController.m; sourceTree = "<group>"; };
+		78C6502C1C8621950052C188 /* OdnoklassnikiBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdnoklassnikiBannerViewController.h; sourceTree = "<group>"; };
+		78C6502D1C8621950052C188 /* OdnoklassnikiBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OdnoklassnikiBannerViewController.m; sourceTree = "<group>"; };
+		8273851AB74388F0414B29F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32256837D6C34EEE3D42B6B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780003051C84A94100B9D265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B9168F7F6FAF4151BD9B3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1EEADC83E2FA0C70721094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8273851AB74388F0414B29F1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5009AC32C471C868D227F914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FC4B71859127A0B01A1659 /* Pods.debug.xcconfig */,
+				E32256837D6C34EEE3D42B6B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		780002FF1C84A94100B9D265 = {
+			isa = PBXGroup;
+			children = (
+				7800030A1C84A94100B9D265 /* BannerTest */,
+				780003091C84A94100B9D265 /* Products */,
+				5009AC32C471C868D227F914 /* Pods */,
+				3F1EEADC83E2FA0C70721094 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		780003091C84A94100B9D265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780003081C84A94100B9D265 /* BannerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7800030A1C84A94100B9D265 /* BannerTest */ = {
+			isa = PBXGroup;
+			children = (
+				78C6419A1C878BB0009E030A /* Singletones */,
+				7800037F1C84CB9700B9D265 /* Cell */,
+				7800036F1C84B80F00B9D265 /* Models */,
+				780003801C84CBB900B9D265 /* ViewControllers */,
+				7800030B1C84A94100B9D265 /* Supporting Files */,
+			);
+			path = BannerTest;
+			sourceTree = "<group>";
+		};
+		7800030B1C84A94100B9D265 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7800030F1C84A94100B9D265 /* AppDelegate.h */,
+				780003101C84A94100B9D265 /* AppDelegate.m */,
+				7800030C1C84A94100B9D265 /* Info.plist */,
+				7800030D1C84A94100B9D265 /* main.m */,
+				780003151C84A94100B9D265 /* Main.storyboard */,
+				780003181C84A94100B9D265 /* Images.xcassets */,
+				7800031A1C84A94100B9D265 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7800036F1C84B80F00B9D265 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				780003701C84B82300B9D265 /* Banner.h */,
+				780003711C84B82300B9D265 /* Banner.m */,
+				780003731C84C03800B9D265 /* TGBBanner.h */,
+				780003741C84C03800B9D265 /* TGBBanner.m */,
+				780003761C84C28C00B9D265 /* OdnoklassnikiBanner.h */,
+				780003771C84C28C00B9D265 /* OdnoklassnikiBanner.m */,
+				780003791C84C39800B9D265 /* HtmlImageFlashBanner.h */,
+				7800037A1C84C39800B9D265 /* HtmlImageFlashBanner.m */,
+				780003811C84E4D600B9D265 /* File.h */,
+				780003821C84E4D600B9D265 /* File.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7800037F1C84CB9700B9D265 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7800037C1C84CB9100B9D265 /* BannerCell.h */,
+				7800037D1C84CB9100B9D265 /* BannerCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		780003801C84CBB900B9D265 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7800036C1C84ABCD00B9D265 /* StartBannerViewController.h */,
+				7800036D1C84ABCD00B9D265 /* StartBannerViewController.m */,
+				78C650261C860D530052C188 /* TGBBannerViewController.h */,
+				78C650271C860D530052C188 /* TGBBannerViewController.m */,
+				78C650291C8620B00052C188 /* HtmlImageFlashBannerViewController.h */,
+				78C6502A1C8620B00052C188 /* HtmlImageFlashBannerViewController.m */,
+				78C6502C1C8621950052C188 /* OdnoklassnikiBannerViewController.h */,
+				78C6502D1C8621950052C188 /* OdnoklassnikiBannerViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		78C6419A1C878BB0009E030A /* Singletones */ = {
+			isa = PBXGroup;
+			children = (
+				780003691C84AA0800B9D265 /* ServerManager.h */,
+				7800036A1C84AA0800B9D265 /* ServerManager.m */,
+				78C6419B1C878BDE009E030A /* SaveLoadSettings.h */,
+				78C6419C1C878BDE009E030A /* SaveLoadSettings.m */,
+			);
+			name = Singletones;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		780003071C84A94100B9D265 /* BannerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7800032B1C84A94200B9D265 /* Build configuration list for PBXNativeTarget "BannerTest" */;
+			buildPhases = (
+				5C1FAADCB5C3FFEBC32E5754 /* Check Pods Manifest.lock */,
+				780003041C84A94100B9D265 /* Sources */,
+				780003051C84A94100B9D265 /* Frameworks */,
+				780003061C84A94100B9D265 /* Resources */,
+				A798C572DAE58FE8B2AC090B /* Embed Pods Frameworks */,
+				2A60EB6C1647A238F3117D01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BannerTest;
+			productName = BannerTest;
+			productReference = 780003081C84A94100B9D265 /* BannerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780003001C84A94100B9D265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = slowmotion;
+				TargetAttributes = {
+					780003071C84A94100B9D265 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 780003031C84A94100B9D265 /* Build configuration list for PBXProject "BannerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 780002FF1C84A94100B9D265;
+			productRefGroup = 780003091C84A94100B9D265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780003071C84A94100B9D265 /* BannerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		780003061C84A94100B9D265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780003171C84A94100B9D265 /* Main.storyboard in Resources */,
+				7800031C1C84A94100B9D265 /* LaunchScreen.xib in Resources */,
+				780003191C84A94100B9D265 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A60EB6C1647A238F3117D01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1FAADCB5C3FFEBC32E5754 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A798C572DAE58FE8B2AC090B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780003041C84A94100B9D265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780003751C84C03800B9D265 /* TGBBanner.m in Sources */,
+				7800036E1C84ABCD00B9D265 /* StartBannerViewController.m in Sources */,
+				7800037B1C84C39800B9D265 /* HtmlImageFlashBanner.m in Sources */,
+				780003721C84B82300B9D265 /* Banner.m in Sources */,
+				78C650281C860D530052C188 /* TGBBannerViewController.m in Sources */,
+				78C6419D1C878BDE009E030A /* SaveLoadSettings.m in Sources */,
+				780003831C84E4D600B9D265 /* File.m in Sources */,
+				780003781C84C28C00B9D265 /* OdnoklassnikiBanner.m in Sources */,
+				78C6502E1C8621950052C188 /* OdnoklassnikiBannerViewController.m in Sources */,
+				78C6502B1C8620B00052C188 /* HtmlImageFlashBannerViewController.m in Sources */,
+				7800037E1C84CB9100B9D265 /* BannerCell.m in Sources */,
+				7800036B1C84AA0800B9D265 /* ServerManager.m in Sources */,
+				780003111C84A94100B9D265 /* AppDelegate.m in Sources */,
+				7800030E1C84A94100B9D265 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		780003151C84A94100B9D265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780003161C84A94100B9D265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7800031A1C84A94100B9D265 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7800031B1C84A94100B9D265 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780003291C84A94200B9D265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7800032A1C84A94200B9D265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7800032C1C84A94200B9D265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FC4B71859127A0B01A1659 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BannerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7800032D1C84A94200B9D265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32256837D6C34EEE3D42B6B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BannerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780003031C84A94100B9D265 /* Build configuration list for PBXProject "BannerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780003291C84A94200B9D265 /* Debug */,
+				7800032A1C84A94200B9D265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7800032B1C84A94200B9D265 /* Build configuration list for PBXNativeTarget "BannerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7800032C1C84A94200B9D265 /* Debug */,
+				7800032D1C84A94200B9D265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780003001C84A94100B9D265 /* Project object */;
+}
