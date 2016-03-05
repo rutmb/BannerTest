@@ -65,7 +65,7 @@
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Баннеры" id="BEQ-Uh-No8"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="irW-8i-cJt">
-                            <rect key="frame" x="115" y="11" width="90" height="22"/>
+                            <rect key="frame" x="70" y="11" width="180" height="22"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <inset key="imageEdgeInsets" minX="-9" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <state key="normal" title="Баннеры" image="ico_white_arrow">

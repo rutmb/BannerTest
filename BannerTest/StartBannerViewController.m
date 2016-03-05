@@ -325,7 +325,7 @@
             NSLocale *ruLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"ru_RU"];
             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
             [formatter setLocale:ruLocale];
-            [formatter setDateFormat:@"d MMMM в hh:mm"];
+            [formatter setDateFormat:@"d MMMM в kk:mm"];
             NSString *title = [NSString stringWithFormat:@"Последнее обновление: %@", [formatter stringFromDate:[NSDate date]]];
             NSDictionary *attrsDictionary = [NSDictionary dictionaryWithObject:[UIColor grayColor]
                                                                         forKey:NSForegroundColorAttributeName];
